@@ -14,6 +14,6 @@ export default defineNuxtConfig({
       api: 'https://api.nuxt.studio',
       dev: true,
     },
-    experimental: { sqliteConnector: 'better-sqlite3' },
+    experimental: { sqliteConnector: 'native' },
   },
 });
